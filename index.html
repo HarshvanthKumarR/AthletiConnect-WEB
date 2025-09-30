@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>AthletiConnect</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <h1>AthletiConnect</h1>
+    <ul>
+      <li><button onclick="showSection('community')">Explore Community</button></li>
+      <li><button onclick="showSection('videos')">Training Videos</button></li>
+      <li><button onclick="showSection('reviews')">Facility Reviews</button></li>
+      <li><button onclick="showSection('store')">Online Store</button></li>
+      <li><button onclick="showSection('forum')">Forum</button></li>
+      <li><button onclick="showSection('about')">About Us</button></li>
+      <li><button onclick="showSection('care')">Customer Care</button></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="community" class="active">
+      <h2>Explore Community</h2>
+      <p>Join or create local and online sports communities. Connect with athletes near you, organize matches, and grow your network!</p>
+      <button onclick="alert('Join feature coming soon!')">Join Community</button>
+    </section>
+    
+    <section id="videos">
+      <h2>Training Videos</h2>
+      <p>Watch or upload quick tips, training routines, and highlight reels!</p>
+      <div id="category-container"></div>
+      <div id="videos-container" style="display:none;"></div>
+      <button onclick="alert('Upload feature coming soon!')">Upload Video</button>
+    </section>
+
+    <section id="reviews">
+      <h2>Facility Reviews</h2>
+      <p>Find, rate & review local sports facilities. See recent reviews from the AthletiConnect community.</p>
+      <button onclick="alert('Review feature coming soon!')">Leave a Review</button>
+    </section>
+    
+    <section id="store">
+        <h2>Online Store</h2>
+        <div id="product-list"></div>
+    </section>
+    
+    <section id="product-modal" style="display:none;">
+        <div class="modal-content">
+            <div id="product-detail"></div>
+            <button class="close-btn" onclick="closeProduct()">Close</button>
+        </div>
+    </section>
+    
+    <section id="forum">
+      <h2>Forum</h2>
+      <p>Discuss sports, share news, or ask questions in the community forum.</p>
+      <button onclick="alert('Post feature coming soon!')">New Post</button>
+    </section>
+    
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        AthletiConnect is dedicated to connecting athletes, enthusiasts, and local communities.      
+        Our mission is to empower sports lovers to network, learn, and achieve their athletic goals.
+      </p>
+    </section>
+    
+    <section id="care">
+      <h2>Customer Care</h2>
+      <p>How can we help?</p>
+      <form onsubmit="contactCare(event)">
+        <input type="text" placeholder="Your Name" required><br>
+        <input type="email" placeholder="Your Email" required><br>
+        <textarea placeholder="How can we help?" required></textarea><br>
+        <button type="submit">Send</button>
+      </form>
+      <div id="care_response"></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
