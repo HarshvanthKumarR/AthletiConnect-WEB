@@ -314,7 +314,7 @@ const trainingCategories = [
   {
     id: 'basketball',
     name: 'Basketball',
-    background: 'https://images.unsplash.com/photo-1506719040639-230110c904a5?auto=format&fit=crop&w=800&q=60',
+    background: 'https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=800&q=80',
     videos: [
       {title: 'Basketball Dribbling Tutorial', url: 'https://www.youtube.com/embed/r9pZy_pBOt0'},
       {title: 'How to Shoot a Basketball', url: 'https://www.youtube.com/embed/mP7xVpIh2xg'},
@@ -331,7 +331,7 @@ const trainingCategories = [
   {
     id: 'football',
     name: 'Football',
-    background: 'https://images.unsplash.com/photo-1505344711673-bf237e84c966?auto=format&fit=crop&w=800&q=60',
+    background: 'https://tse2.mm.bing.net/th/id/OIP.vNArNUIX5yYFfVW-AGFuqgHaE8?pid=Api&P=0&h=180',
     videos: [
       {title: 'Football Dribbling Skills', url: 'https://www.youtube.com/embed/3q3fQeRzvB8'},
       {title: 'Passing Drills for Football', url: 'https://www.youtube.com/embed/JDq1Lz8jrwU'},
@@ -348,7 +348,7 @@ const trainingCategories = [
   {
     id: 'tennis',
     name: 'Tennis',
-    background: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=60',
+    background: 'https://static.vecteezy.com/system/resources/previews/003/491/993/non_2x/three-tennis-balls-and-racket-on-hard-court-under-sunlight-free-photo.jpg',
     videos: [
       {title: 'Tennis Forehand Training', url: 'https://www.youtube.com/embed/D7Rz3ibhxrc'},
       {title: 'Backhand Technique', url: 'https://www.youtube.com/embed/Rv0hV43piKA'},
@@ -365,7 +365,7 @@ const trainingCategories = [
   {
     id: 'cricket',
     name: 'Cricket',
-    background: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=800&q=60',
+    background: 'https://media.gettyimages.com/id/1292871532/photo/cricket-ball-hitting-the-stumps.jpg?s=612x612&w=0&k=20&c=i3_-rTUj3CEIsgslJFfc-ZEzCxTHPWkmlGYw_qtnQjE=',
     videos: [
       {title: 'Batting Drills', url: 'https://www.youtube.com/embed/d6TF4TGQnGc'},
       {title: 'Bowling Practice Tips', url: 'https://www.youtube.com/embed/Fv9WcbUVhHo'},
@@ -382,7 +382,7 @@ const trainingCategories = [
   {
     id: 'swimming',
     name: 'Swimming',
-    background: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=60',
+    background: 'https://thumbs.dreamstime.com/b/competitive-swimming-2282607.jpg',
     videos: [
       {title: 'Freestyle Swimming Technique', url: 'https://www.youtube.com/embed/oPhlCHTpFJY'},
       {title: 'Butterfly Stroke Basics', url: 'https://www.youtube.com/embed/jfY_Xx66GsY'},
@@ -399,7 +399,7 @@ const trainingCategories = [
   {
     id: 'cycling',
     name: 'Cycling',
-    background: 'https://images.unsplash.com/photo-1520145336183-58e6a743da03?auto=format&fit=crop&w=800&q=60',
+    background: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=800&q=60',
     videos: [
       {title: 'Cycling Endurance Training', url: 'https://www.youtube.com/embed/aOZqgq-5oFg'},
       {title: 'Interval Training for Cyclists', url: 'https://www.youtube.com/embed/M7-RMy3t3fY'},
@@ -416,7 +416,7 @@ const trainingCategories = [
   {
     id: 'boxing',
     name: 'Boxing',
-    background: 'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=800&q=60',
+    background: 'https://media.istockphoto.com/photos/red-boxing-glove-picture-id1006291908?k=6&m=1006291908&s=170667a&w=0&h=h1d40krbpTjRZ6Rgt9Fryf-OwXdU3ea79I4PxwXc0v0=',
     videos: [
       {title: 'Boxing Basics for Beginners', url: 'https://www.youtube.com/embed/f1qO3L9S-pg'},
       {title: 'Punching Techniques', url: 'https://www.youtube.com/embed/e9w9-fE1oHY'},
@@ -433,7 +433,7 @@ const trainingCategories = [
   {
     id: 'athletics',
     name: 'Athletics',
-    background: 'https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=800&q=60',
+    background: 'https://tse1.mm.bing.net/th/id/OIP.Y5IkMvWgOPaTiXvx6QEUuAHaEo?pid=Api&P=0&h=180',
     videos: [
       {title: 'Sprint Training Drills', url: 'https://www.youtube.com/embed/TG9s_4kuEro'},
       {title: 'Long Distance Running Form', url: 'https://www.youtube.com/embed/pGRMjzBbALS'},
@@ -450,7 +450,7 @@ const trainingCategories = [
   {
     id: 'gymnastics',
     name: 'Gymnastics',
-    background: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=60',
+    background: 'https://tse1.mm.bing.net/th/id/OIP.QcbjOIw3iSzE6A05L06B5QHaE7?pid=Api&P=0&h=180',
     videos: [
       {title: 'Gymnastics Basics for Beginners', url: 'https://www.youtube.com/embed/zh0-cH0SNvQ'},
       {title: 'Handstand Techniques', url: 'https://www.youtube.com/embed/w7yJUPWvXDs'},
